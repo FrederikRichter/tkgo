@@ -15,7 +15,7 @@
 buildGoApplication {
   pname = "texgo";
   version = "0.1";
-  pwd = ./.;
-  src = ./.;
-  modules = ./gomod2nix.toml;
+  pwd = ./src/tkgo/.;
+  src = ./src/tkgo/.;
+  modules = ./src/tkgo/gomod2nix.toml;
 }
