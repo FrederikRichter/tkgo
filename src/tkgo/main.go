@@ -3,6 +3,7 @@ package main
 import (
     "fmt"
     "tkgo/utils" // Import the utils package
+    "tkgo/tslatex"
 )
 
 func main() {
